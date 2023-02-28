@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,700&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Poppins";
+  color: #6C757D;
+}
+
+.wraper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: #E5E5E5;
+  padding-bottom: 40px;
+}
+
+.container {
+  max-width: 816px;
+  margin: 0 auto;
+}
+
+.main__bloc-text-one {
+  padding-top: 115px;
+}
+
+.main__title {
+  max-width: 400px;
+  max-height: 80px;
+}
+.main__title h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+}
+
+.main__text P {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-top: 40px;
+}
+
+.main__image {
+  max-width: 1240px;
+  margin: 80px auto;
+}
+.main__image img {
+  max-width: 100%;
+}
+
+.main__title-two {
+  max-width: 605px;
+  max-height: 120px;
+}
+.main__title-two h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+}
+
+.main__image-two {
+  max-width: 1240px;
+  margin: 80px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__image-two_img {
+  max-width: 605px;
+}
+.main__image-two_img img {
+  max-width: 100%;
+}
