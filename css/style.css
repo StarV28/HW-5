@@ -151,17 +151,6 @@ body {
   color: #212529;
 }
 
-.main__image-two {
-  max-width: 1240px;
-  margin: 80px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 //=======================
 // Как вариант. По другому не могу придумать, можно еще flex
 
