@@ -162,9 +162,19 @@ body {
           justify-content: space-between;
 }
 
-.main__image-two_img {
-  max-width: 605px;
+//=======================
+// Как вариант. По другому не могу придумать, можно еще flex
+
+.main__image-two {
+  max-width: 1240px;
+  margin: 80px auto;
 }
-.main__image-two_img img {
+.main__image-two img {
   max-width: 100%;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+
+.main__image-two img:nth-child(2) {
+  margin-right: 0;
 }
